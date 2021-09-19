@@ -1,0 +1,13 @@
+{
+  "appId": "com.logicly.ai",
+  "appName": "Logicly",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000
+    }
+  },
+  "cordova": {}
+}

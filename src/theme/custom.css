@@ -1,0 +1,1838 @@
+body,
+ion-content,
+ion-title,
+ion-label,
+ion-grid,
+ion-row,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.noPatientText {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.subText {
+  color: #afafaf;
+}
+
+.topBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bottomBg {
+  right: 0;
+  bottom: 0;
+  float: right;
+}
+
+.header-md::after {
+  height: 0px;
+}
+
+.menuIcon {
+  padding: 10px;
+}
+
+:focus {
+  outline: none;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+.p2 {
+  padding: 2px;
+}
+
+.m10 {
+  margin-right: 10px;
+}
+
+.bgYellow {
+  --background: #edd300;
+  --box-shadow: 0px 8px 16px rgba(237, 211, 0, 0.4) !important;
+}
+
+.bgGreen {
+  --background: #0bb68c;
+}
+
+.bgWhite {
+  --background: #fff;
+  background: #fff;
+}
+
+.bgLightGrey {
+  --background: #f5f5f5;
+}
+
+.m20 {
+  margin-bottom: 20px;
+}
+
+.headtitle {
+  text-transform: capitalize;
+  color: #0bb68c !important;
+}
+
+.calendar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background: white;
+}
+
+.calendar .title {
+  font-size: 17px !important;
+  color: #535353;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.calendar:not(.m0) {
+  outline-offset: -7px;
+  padding: 6px 5px;
+  box-shadow: 0px 8px 20px rgba(57, 175, 82, 0.1);
+  border-radius: 20px;
+}
+
+.header.row {
+  position: relative;
+}
+
+/* border bottom for header */
+.header.row:after {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid #818181;
+  bottom: 0;
+  width: 94%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.version {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+}
+
+.colorWhite {
+  color: #fff !important;
+  --color: #fff;
+}
+
+.colorGrey {
+  color: #818181 !important;
+  --color: #818181;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo.ion-text-center {
+  min-height: 100px;
+  padding-top: 135px;
+}
+
+ion-menu-button {
+  --color: white !important;
+  color: white !important;
+}
+
+.logo-img {
+  width: auto;
+  height: 65px;
+}
+
+span.header_ic {
+  float: right;
+  margin-right: 6px;
+  width: 20px;
+}
+
+ion-title {
+  text-align: left;
+  padding: 4px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.login a {
+  color: #979797;
+  text-decoration: none;
+}
+
+.login label {
+  color: #535353;
+}
+
+.login .sign-up a {
+  color: #3898d2;
+}
+
+.login .sign-in-button button {
+  margin-bottom: 15px;
+  width: 100%;
+  background: #0bb68c;
+  border-radius: 6px;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.login h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #292929;
+  margin-bottom: 0;
+}
+
+.login .name-field input {
+  float: left;
+  width: 48% !important;
+}
+
+.login span {
+  font-size: 14px;
+  color: #b5b5b5;
+}
+
+.login .fields {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.login ion-item {
+  --inner-padding-end: 0px;
+  --inner-padding-start: 0px;
+  --padding-start: 0px;
+}
+
+.login .fields input {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+  padding: 15px 15px;
+}
+
+.login .name-field input:last-child {
+  margin: 0 0px 0 14px;
+}
+
+.login .sign-in-button button img {
+  margin: 0px 10px 0px 0px;
+}
+
+.login .fields input:last-child {
+  margin-bottom: 5px;
+}
+
+.login button {
+  height: 56px;
+  left: 22px;
+  right: 22px;
+  top: 556px;
+  background: #0bb68c;
+  border-radius: 6px;
+}
+
+.patient-list {
+  margin-top: 20px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.patient-list ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.patient-list ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.patient-list ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.patient-list ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.patient-list .add_ic span {
+  float: right;
+  padding: 0 5px 0 0px;
+  margin-top: 10px;
+}
+
+.patient-list .add_ic span i {
+  background: red;
+  height: 55px;
+  background: #0bb68c;
+  width: 55px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  padding: 19px 3px;
+}
+
+.patient-list .search_list {
+  overflow-x: hidden;
+}
+
+.patient-list .search_list label {
+  font-weight: 300;
+}
+
+.patient-list p {
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  color: #535353;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.patient-list ion-searchbar {
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0px 4px 12px rgba(11, 182, 140, 0.14);
+}
+
+.patient-list ion-searchbar .searchbar-has-focus ion-icon {
+  display: none;
+}
+
+.patient-list .searchIcon {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  width: 28px;
+}
+
+.patient-list input.searchbar-input {
+  padding-left: 12px;
+  background: none !important;
+  box-shadow: inherit;
+}
+
+.patient-list .searchbar-search-icon {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.patient-list .searchbar-clear-icon {
+  width: 0;
+  display: none;
+  height: 0;
+}
+
+.calIcon {
+  position: absolute;
+  right: 8px;
+  top: 30px;
+}
+
+.patientDetail .fields {
+  border: 1px solid #eaeaea;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+
+.patientDetail .fields input {
+  border: 0px;
+  padding-left: 0px;
+}
+
+.patientDetail ion-button {
+  --border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 13px;
+  --box-shadow: 0px 8px 16px rgba(11, 182, 140, 0.4);
+}
+
+.patientDetail ion-button[type='reset'] {
+  --background: #ec6b66;
+  --box-shadow: 0px 8px 16px rgba(236, 107, 102, 0.4);
+}
+
+.patientDetail ion-button[type='submit'] {
+  --background: #0bb68c;
+}
+
+.patientDetail .dateTimeCss {
+  text-align: left;
+}
+
+.patientDetail .dateTimeCss ion-datetime {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.loading-spinner.sc-ion-loading-md,
+.sc-ion-loading-ios {
+  --spinner-color: #57d795;
+}
+
+.alertCustomCss {
+  color: black;
+}
+
+.alertCustomCss .alert-head {
+  padding: 0;
+}
+
+.alertCustomCss .alert-wrapper .alert-message {
+  padding: 10px 20px !important;
+}
+
+.alertCustomCss .alert-wrapper.sc-ion-alert-md {
+  border-radius: 30px;
+}
+
+.alertCustomCss .alert-wrapper.sc-ion-alert-md h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.alertCustomCss button {
+  color: white !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  background-color: #fff !important;
+  text-align: center !important;
+}
+
+.alertCustomCss .navBtn,
+.alertCustomCss .yesBtn,
+.alertCustomCss .noBtn,
+.alertCustomCss .lockBtn {
+  float: left;
+  text-transform: capitalize;
+}
+
+.alertCustomCss .noBtn span.alert-button-inner.sc-ion-alert-md,
+.alertCustomCss .noBtn span.alert-button-inner.sc-ion-alert-ios {
+  color: #fff;
+  background: #de5555;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 20px;
+  height: 35px;
+  padding: 6px;
+}
+
+.alertCustomCss .yesBtn span.alert-button-inner.sc-ion-alert-md,
+.alertCustomCss .yesBtn span.alert-button-inner.sc-ion-alert-ios {
+  color: #fff;
+  background: #57d795;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 20px;
+  height: 35px;
+  padding: 6px;
+}
+
+.alertCustomCss .navBtn span.alert-button-inner.sc-ion-alert-md,
+.alertCustomCss .navBtn span.alert-button-inner.sc-ion-alert-ios {
+  color: #fff;
+  background: #12c5bd;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 20px;
+  height: 35px;
+  padding: 6px;
+}
+
+.alertCustomCss .lockBtn span.alert-button-inner.sc-ion-alert-md,
+.alertCustomCss .lockBtn span.alert-button-inner.sc-ion-alert-ios {
+  color: #fff;
+  background: #12c5bd;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 20px;
+  height: 35px;
+  padding: 6px;
+}
+
+.alertCustomCss .missedBtn span.alert-button-inner.sc-ion-alert-md,
+.alertCustomCss .missedBtn span.alert-button-inner.sc-ion-alert-ios {
+  color: #fff;
+  background: gray;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 20px;
+  height: 35px;
+  padding: 6px;
+  text-transform: capitalize;
+}
+
+.alertCustomCss .alertCustomCss
+.alert-button-group.alert-button-group-vertical.sc-ion-alert-ios {
+  width: 100%;
+}
+
+.alertCustomCss .alert-message {
+  color: black;
+  text-align: center;
+}
+
+.alertCustomCss .alert-fix.noBtn, .alertCustomCss .alert-fix.yesBtn {
+  min-width: 50%;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.alertCustomCss .alert-fix.yesBtn {
+  border-left: 1px solid #e5e9f1;
+}
+
+.alertCustomCss.landscape-scaling .alert-wrapper {
+  overflow: scroll;
+}
+
+.alertCustomCss.landscape-scaling .alert-wrapper .alert-message {
+  background: #fff;
+  position: sticky;
+  padding: 20px 0;
+  top: 0;
+  z-index: 9;
+  border-bottom: 1px solid #e5e9f1;
+  overflow: visible;
+}
+
+.alertCustomCss.landscape-scaling .alert-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.fas.fa-check {
+  color: gainsboro;
+}
+
+.green-check-mark {
+  color: #0bb68c !important;
+}
+
+.patient-schedule .patientTitle {
+  margin-right: 0;
+  font-size: 12px;
+}
+
+.patient-schedule ion-checkbox {
+  --checkmark-color: transparent;
+  --checkmark-width: 3px;
+  --background-checked: transparent;
+  --border-width: 0px;
+  --border-color-checked: transparent;
+  --background: transparent;
+}
+
+.patient-schedule ion-checkbox:disabled {
+  --opacity: 1;
+}
+
+.patient-schedule .slider-outer label {
+  font-size: 16px;
+  color: #0bb68c;
+  margin: 0px 10px 0px 10px;
+}
+
+.patient-schedule .slider-outer ion-col {
+  padding: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.patient-schedule span.number {
+  text-align: left;
+  position: relative;
+  font-size: 10px;
+  color: #000000;
+}
+
+.patient-schedule span.time {
+  text-align: left;
+  position: relative;
+  font-size: 10px;
+  top: 45%;
+  color: #818181;
+}
+
+.patient-schedule .list.yellow .inner-section {
+  background: #e3ad62;
+}
+
+.patient-schedule .list.purple .inner-section {
+  background: #a594cc;
+}
+
+.patient-schedule .list.green .inner-section {
+  background: #0bb68c;
+}
+
+.patient-schedule .slider-outer i {
+  font-size: 16px;
+  color: #0bb68c;
+  margin: 0 20px;
+}
+
+.patient-schedule .slider-outer {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.patient-schedule .slides-ios {
+  margin: 20px 0 0 0;
+}
+
+.patient-schedule .list {
+  text-align: center;
+}
+
+.patient-schedule .list span {
+  width: 100%;
+  display: inline-block;
+}
+
+.patient-schedule .list .title {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.patient-schedule .inner-section {
+  position: relative;
+  background: #db413c;
+  display: inline-block;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.patient-schedule .inner-section span {
+  color: #fff;
+}
+
+.patient-schedule .list .inner-section:before {
+  position: absolute;
+  height: 1px;
+  width: 54%;
+  background: #ccc;
+  top: 30px;
+  right: -54%;
+  content: '';
+  z-index: 0;
+}
+
+.patient-schedule .footer-icon span {
+  color: #535353;
+  font-size: 14px;
+  width: 100%;
+  display: inline-block;
+  margin: 5px 0 0 0;
+}
+
+.patient-schedule .footer-icon img {
+  border-radius: 26px;
+  box-shadow: 4px 2px 13px #cccc;
+  width: 56px;
+}
+
+.patient-schedule .list .inner-section:after {
+  position: absolute;
+  height: 1px;
+  width: 54%;
+  background: #ccc;
+  top: 30px;
+  left: -54%;
+  content: '';
+  z-index: 0;
+}
+
+.patient-schedule ion-segment-button {
+  --border-width: 2px;
+  height: 33px;
+  /* --background: #818181; */
+  /* border-radius: 5px 5px 0px 0px; */
+  --color: #afafaf;
+  --color-checked: #0bb68c !important;
+  font-size: 14px;
+}
+
+.patient-schedule .tabs-title {
+  background: #fff;
+  margin: 8px 5px 10px 5px;
+  padding: 5px 10px;
+}
+
+.patient-schedule .tabs-title p {
+  color: #000000;
+  width: 100%;
+  line-height: 25px;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.patient-schedule .tabs-title strong {
+  color: #000000;
+  font-weight: 900;
+}
+
+.patient-schedule .tabs-title h4 {
+  margin: 0 0 10px 0;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 900;
+  padding-top: 5px;
+  white-space: nowrap;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.patient-schedule .footer-icon p {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.patient-schedule ion-searchbar {
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0px 4px 12px rgba(11, 182, 140, 0.14);
+}
+
+.patient-schedule .fab-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient-schedule .fab-btn-wrapper ion-fab-button {
+  position: inherit;
+}
+
+.patient-schedule ion-label.cust-flex {
+  flex: none;
+}
+
+.patient-schedule ion-label.cust-flex.cust-width-1 {
+  width: 40%;
+}
+
+.patient-schedule ion-label.cust-flex.cust-width-2 {
+  width: 45%;
+}
+
+span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+  color: #2a89c7;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button.react-calendar__tile.react-calendar__tile--active {
+  background: #0bb68c;
+  border-radius: 50%;
+  max-width: 70px !important;
+  color: #fff;
+}
+
+.react-calendar__navigation {
+  height: 40px;
+}
+
+button.react-calendar__tile {
+  font-size: 16px;
+  height: 50px;
+  background: #fff;
+  width: 40px !important;
+}
+
+.calendar h4 {
+  margin: 0 15px 10px 25px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 900;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.item-inner {
+  border: none !important;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  border: none;
+  text-decoration: none;
+}
+
+.react-calendar {
+  margin-top: 15px;
+  margin: 10px 15px;
+  border: 1.5px solid #818181;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+  padding: 15px 0 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #535353;
+}
+
+.settings ion-toggle {
+  float: right;
+  width: 65px;
+  --handle-background-checked: #fff;
+  --background-checked: #0bb68c;
+  --handle-background: #818181;
+}
+
+.settings .input_number input {
+  float: right;
+  width: 65px;
+  height: 25px;
+}
+
+.settings ion-input {
+  text-align: right;
+}
+
+.settings ion-button {
+  --background: #0bb68c;
+  text-transform: capitalize;
+}
+
+.footer-icon {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+}
+
+.icon-outer {
+  margin-top: 80px;
+}
+
+.selectCtrl ion-select {
+  padding: 16px;
+  /* float: left; */
+  width: 100%;
+  font-size: 16px;
+  border-bottom: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+
+.selectCtrl .select-text {
+  text-align: left;
+}
+
+.fields ion-select {
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+}
+
+.fields ion-label {
+  color: #888 !important;
+}
+
+.class1 {
+  background: red !important;
+}
+
+.class2 {
+  background: yellow !important;
+}
+
+.pagination {
+  margin: 0px;
+}
+
+.pagination > .active > a {
+  background-color: #0bb68c !important;
+  border-color: #0bb68c !important;
+}
+
+.pagination > li > a {
+  color: #0bb68c;
+}
+
+.footer-md::before {
+  width: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  button.react-calendar__tile.react-calendar__tile--active {
+    height: 38px;
+    margin: 4px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  button.react-calendar__tile.react-calendar__tile--active {
+    height: 42px;
+  }
+}
+
+.radioCheck {
+  --color-checked: #0bb68c;
+}
+
+.sessionText ion-col {
+  margin: 10px;
+  text-align: center;
+}
+
+.sessionText ion-label {
+  color: grey;
+  font-size: 13px;
+}
+
+.timeSel {
+  border: 1px solid;
+  width: 44%;
+  float: right;
+  padding: 7px;
+  text-align: center;
+}
+
+.workingHrs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.includeWeekends {
+  padding: 10px;
+}
+
+.includeWeekends ion-label {
+  font-size: 17px;
+  color: #535353;
+}
+
+.fc-event-main {
+  font-size: 15px;
+  border: 0px;
+  text-align: center;
+}
+
+.fc-toolbar-chunk {
+  font-size: 10px;
+}
+
+a.fc-timegrid-event {
+  border: 1px solid white;
+}
+
+.fc-event-main-frame {
+  color: white;
+}
+
+a.fc-col-header-cell-cushion {
+  color: #0bb68c;
+}
+
+.fc-daygrid-event-harness a,
+a.fc-daygrid-day-number {
+  color: #0bb68c;
+}
+
+.fc-daygrid-event-dot {
+  border-color: #0bb68c;
+}
+
+.scheduleBtn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.scheduleBtn ion-col {
+  padding: 0px;
+}
+
+.scheduleBtn a {
+  text-decoration: none;
+}
+
+.scheduleBtn ion-label {
+  padding: 20px 28px 20px 23px;
+  text-transform: uppercase;
+  background: #818181;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.active ion-label {
+  background: #0bb68c;
+}
+
+.auto-complete-list {
+  margin: 0;
+  position: absolute;
+  z-index: 99999;
+  background-color: #fff;
+  padding: 0;
+  width: 98%;
+  list-style: none;
+  overflow-y: scroll;
+  max-height: 200px;
+  border: 2px solid gainsboro;
+}
+
+.auto-complete-list li {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.auto-complete-list li:last-child {
+  float: none;
+  font-weight: normal;
+}
+
+.searchSelect {
+  width: 100% !important;
+}
+
+.searchSelectDrop *,
+.searchSelectDrop {
+  -webkit-transform: translateZ(9999);
+  transform: translateZ(9999);
+}
+
+.searchSelectDrop {
+  text-align: left;
+  width: 100%;
+  padding-bottom: 22px !important;
+}
+
+.searchSelectDrop .css-g1d714-ValueContainer {
+  margin-top: 7px;
+}
+
+.css-26l3qy-menu {
+  z-index: 99999999 !important;
+  position: relative !important;
+  display: block !important;
+}
+
+.searchSelect .css-yk16xz-control {
+  padding: 4px !important;
+  border-radius: 10px !important;
+  border: 0px;
+  font-size: 16px;
+  border: 1px solid #efefef;
+  height: 66px;
+}
+
+.searchSelect .css-1pahdxg-control {
+  padding: 4px !important;
+  border-radius: 10px !important;
+  border: 0px;
+  font-size: 16px;
+  border: 1px solid #efefef;
+  height: 66px;
+  box-shadow: none !important;
+}
+
+.searchSelect .css-1pahdxg-control:hover {
+  border: 0px;
+  border: 1px solid #efefef !important;
+  box-shadow: none !important;
+}
+
+.searchSelect .css-b8ldur-Input {
+  margin: 0px !important;
+}
+
+.documents ion-card-content {
+  color: black;
+  text-align: center;
+}
+
+.documents .cardHead ion-row {
+  padding-left: 18px;
+  padding-top: 12px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.documents .dataRow {
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding-bottom: 11px;
+}
+
+.documents .date {
+  text-align: right;
+}
+
+.documents .name {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.signIn .fields {
+  border: 0px;
+}
+
+.textArea {
+  border: 2px solid #efefef;
+  border-radius: 11px;
+}
+
+.textArea ion-label {
+  color: #888 !important;
+}
+
+.fa-trash {
+  float: right;
+  padding: 4px 0px 0px 0px;
+  z-index: 9999;
+  display: block;
+  position: relative;
+}
+
+.weekCtrl label {
+  white-space: nowrap;
+  color: #0bb68c;
+  text-align: center;
+  font-weight: 400;
+  margin: 0px 16px 0px 16px;
+}
+
+.weekCtrl {
+  margin: 1px 65px 0px 65px;
+  white-space: nowrap;
+  margin-top: 8px;
+  background: #e5faf4;
+}
+
+.weekCtrl ion-col {
+  padding: 10px 15px 10px 15px;
+}
+
+.css-1uccc91-singleValue {
+  top: 66% !important;
+  font-size: 16px !important;
+}
+
+.searchSelectItem ion-item {
+  border: none;
+  box-shadow: none;
+  --padding-start: 0px;
+  --inner-padding-end: 0px;
+  --inner-padding-start: 0px;
+}
+
+.searchSelectItem ion-label {
+  color: #888 !important;
+  font-size: 12px !important;
+  padding-left: 16px;
+  top: 10px;
+  position: relative;
+  z-index: 9999;
+}
+
+.closeIcon {
+  font-size: 25px;
+}
+
+.fc-event-title {
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+
+.forgot-pw {
+  padding: 20px;
+}
+
+.num {
+  height: 24px;
+  width: 24px;
+  font-weight: 600;
+  padding: 4px;
+  font-size: 11px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  color: white;
+  z-index: 9999;
+  position: relative;
+  margin: 0 10px 0 0px;
+}
+
+.EvalColor {
+  background: #ba96d7;
+}
+
+.RoutineColor {
+  background: #0bb68c;
+}
+
+.RecertColor {
+  background: #d40000;
+}
+
+.DischargeColor {
+  background: #edd300;
+}
+
+.DREColor {
+  background: #759ae0;
+}
+
+.green {
+  background: green;
+}
+
+.modal-container .ion-overlay-wrapper {
+  background: transparent !important;
+}
+
+.modalClass {
+  background: #fff;
+  height: 50%;
+  margin: auto 30px;
+  border-radius: 14px;
+}
+
+.modalClass.cust-eval-height {
+  height: 182px;
+}
+
+.modalSubHead {
+  font-weight: bold;
+  color: black;
+}
+
+.modalHead {
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.modalHeadTitle {
+  font-weight: 600;
+  color: #0bb68c;
+  font-size: 17px;
+}
+
+.modalCloseIcon {
+  font-size: 20px;
+}
+
+.legends {
+  margin: 9px 0px 5px 20px;
+}
+
+.legends .legendInner {
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 5px;
+}
+
+.legends span {
+  padding: 0px 12px 0px 0px;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+}
+
+.legends ion-label {
+  padding-left: 5px;
+}
+
+#locationField {
+  margin: 10px 5px 30px 5px;
+}
+
+#locationField input {
+  box-shadow: none !important;
+  border: 1px solid #efefef !important;
+  font-size: 16px;
+  height: 60px;
+  border-radius: 11px;
+  padding-left: 14px;
+  color: #535353;
+}
+
+.modalInner {
+  height: 80%;
+  overflow: scroll;
+  position: relative;
+  padding: 14px;
+}
+
+.modalInner ion-label {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.frequency {
+  text-align: center;
+}
+
+.frequency .heading {
+  margin-top: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.frequency .radioCtrl .item-radio-checked ion-label {
+  color: #0bb68c !important;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.frequency .radioCtrl {
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+
+.frequency .radioCtrl ion-label {
+  color: #000 !important;
+  font-weight: 300;
+  font-size: 16px !important;
+}
+
+.frequency .radioCtrl ion-radio-group {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.frequency .radioCtrl ion-item {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.frequency .radioCtrl ion-radio {
+  margin: 0;
+  --color-checked: #0bb68c;
+}
+
+.frequency .weeks {
+  box-shadow: 2px 4px 3px #f2f9f2;
+  border: 1px solid #f2f9f2;
+  margin-bottom: 15px;
+  padding: 8px 5px;
+  margin: 0 15px 18px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.frequency .weeks ion-label {
+  font-size: 16px;
+}
+
+.frequency .weeks_icons .borderGreen {
+  border: 1px solid #0bb68c !important;
+}
+
+.frequency h2 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 18px;
+  line-height: 24px;
+}
+
+.frequency ion-button {
+  --width: 80%;
+  font-weight: 300;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #0bb68c;
+  --background: #e5faf4;
+}
+
+.frequency .delFreq {
+  padding: 2px 0px 0px 0px;
+}
+
+.frequency .delFreq i.fas.fa-minus {
+  color: #dd726b;
+}
+
+.frequency .weeks_icons {
+  float: right;
+  text-align: right;
+}
+
+.frequency .weeks_icons ion-label {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.frequency .weeks_icons span i.fas.fa-minus {
+  color: #dd726b;
+}
+
+.frequency .weeks_icons span i.fas.fa-plus {
+  color: #0bb68c;
+}
+
+.frequency .weeks_icons span {
+  border: 1px solid #dd726b;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  text-align: center;
+  padding: 2px 2px;
+}
+
+.frequency span.plus-bottom {
+  background: #0bb68c;
+  color: #fff;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frequency span.tick-bottom {
+  background: #0bb68c;
+  color: #fff;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 0;
+  font-size: 20px;
+  margin: 0 15px;
+  box-shadow: 2px 3px 5px #d5f0e9;
+}
+
+.frequency .bottomBtns {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.frequency .bottomBtns .plus {
+  background: transparent;
+}
+
+.frequency .bottomBtns .plusTickBtn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.frequency .bottomBtns .delete-btn .tick-bottom {
+  background: #ec6b66;
+}
+
+.frequency .bottomBtns .delete-btn .tick-bottom ion-icon {
+  margin: -2px 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.editCalIcons span {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+}
+
+.editCalIcons i {
+  font-size: 20px;
+}
+
+.editCalIcons img {
+  width: 20px;
+  margin: 0 0 0 15px;
+}
+
+.bbt {
+  border-bottom: 1px solid #ccc;
+}
+
+.mainHeading {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.mainHeading h4 {
+  float: left;
+  width: 50% !important;
+  margin: 0 !important;
+}
+
+.bgSeaGreen {
+  background: #e5faf4;
+}
+
+.date-section {
+  padding: 4px 10px 4px 10px;
+}
+
+.navigateIcon {
+  width: 25%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  /* margin: 10px 0; */
+  bottom: 2px;
+  right: 0;
+}
+
+.navigateIcon img {
+  /* border-radius: 50%; */
+  /* border: 1px solid; */
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  width: 95% !important;
+  height: 100%;
+}
+
+.l0 ion-fab-button {
+  left: 0 !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.l0 ion-fab-button i {
+  color: #0bb68c !important;
+}
+
+.navIcon ion-fab-button {
+  bottom: 0;
+  left: -20px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  --background: #fff;
+}
+
+.boxesIcon ion-fab-button {
+  bottom: 0;
+  left: 40px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  --background: #fff;
+}
+
+.detailNavIcon ion-fab-button {
+  right: 15px;
+  bottom: 31px;
+  position: absolute;
+}
+
+.fade span .number {
+  color: red !important;
+}
+
+.sub-heading {
+  font-weight: 600;
+  color: #0bb68c;
+}
+
+.timeGrid .fc-timegrid-event-harness {
+  left: 18% !important;
+  right: 20% !important;
+}
+
+.fc-timegrid-event .fc-event-main {
+  display: table !important;
+  width: 100% !important;
+}
+
+.fc-v-event .fc-event-main-frame {
+  vertical-align: middle !important;
+  display: table-cell !important;
+}
+
+.hideCheck {
+  margin-left: 10px;
+  color: white;
+}
+
+span.fc-icon.fc-icon-chevron-right,
+span.fc-icon.fc-icon-chevron-left {
+  color: #0bb68c !important;
+  background: white;
+}
+
+.fc .fc-button .fc-icon {
+  font-size: 25px !important;
+}
+
+button.fc-next-button.fc-button.fc-button-primary,
+button.fc-prev-button.fc-button.fc-button-primary {
+  background: white !important;
+  background-color: white !important;
+  border: 1px solid white !important;
+  border-color: white !important;
+  box-shadow: 0px 0px 0px white !important;
+}
+
+.city {
+  color: #888;
+  font-size: 10px;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  display: block;
+  background: url(/assets/images/calicon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.mobileCtrl {
+  height: 60px;
+}
+
+.mobileCtrl ion-label {
+  margin-bottom: 14px !important;
+  font-size: 12px !important;
+  position: absolute;
+  top: -6px;
+}
+
+.maskField {
+  position: absolute;
+  bottom: 0;
+}
+
+.fa-bolt {
+  color: #888;
+  font-size: 24px;
+}
+
+.custom-list .head {
+  color: #797979;
+}
+
+.custom-list .item {
+  padding: 20px 5px;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.recerts .tabs-title {
+  margin: 0 5px;
+  text-align: left;
+}
+
+.recerts .tabs-title span {
+  float: right;
+  font-weight: 700;
+}
+
+.recerts .fields {
+  margin: 0 10px;
+}
+
+.recerts .message-tips span {
+  display: block;
+}
+
+.recerts .message-tips span strong {
+  font-weight: 600;
+}
+
+.recerts .btn-grp ion-button {
+  height: 40px;
+  font-size: 14px;
+  --background-activated: inherit;
+}
+
+.recerts .btn-grp ion-icon {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.recerts .frequency ion-button {
+  width: 100px;
+  --box-shadow: none;
+  font-weight: 600;
+}
+
+.recerts .freq-display {
+  height: 58vh;
+  overflow: auto;
+}
+
+.careText {
+  font-size: 10px;
+  color: #888;
+}
+
+.modalheight {
+  height: 182px !important;
+}
+
+.editEvalTitle {
+  font-size: 14px;
+}
+
+.evalDate {
+  border-bottom: 1px solid #888;
+}
+
+.editEvalIcon img {
+  width: 13px;
+}
+
+.nonAvailability ion-button {
+  font-size: 11px;
+  text-transform: capitalize;
+  width: 58% !important;
+}
+
+.nonAvailability .calIcon {
+  top: 20px !important;
+}
+
+.nonAvailability .plus span {
+  padding: 13px 0 !important;
+  margin: 0;
+}
+
+.nonAvailability .headtitle {
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.nonAvailability i.fas.fa-edit.hand,
+.nonAvailability ion-icon {
+  float: right;
+  color: #888;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.nonAvailability ion-icon {
+  font-size: 22px;
+}
+
+.nonAvailability span.timing {
+  display: block;
+  color: #888;
+  font-size: 14px;
+}
+
+.item.sc-ion-label-ios-h.allow-weeks,
+.item .sc-ion-label-ios-h.allow-weeks {
+  text-overflow: inherit;
+}
+
+.clock-picker-modal {
+  --height: 75%;
+}
+
+.clock-picker-modal .modal-wrapper {
+  background-color: transparent;
+}
+
+.clock-picker-modal .clock-picker {
+  overflow: scroll;
+  text-align: center;
+}
+
+.settings-info {
+  text-align: center;
+  color: #666;
+}
+
+.disabled-ico {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.visit-types-label {
+  padding-left: 10px;
+  overflow: visible !important;
+}
+
+.visit-types-label .visit-types-wrapper {
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.visit-types-label .visit-types-wrapper .num {
+  margin-bottom: 5px;
+}
+
+.refresh-cal-wrapper ion-fab-button {
+  --background-activated: inherit;
+}
+
+.refresh-cal-wrapper i {
+  color: #0bb68c;
+  font-size: 20px;
+}

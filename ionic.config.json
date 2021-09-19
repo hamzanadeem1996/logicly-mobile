@@ -1,0 +1,7 @@
+{
+  "name": "apex-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

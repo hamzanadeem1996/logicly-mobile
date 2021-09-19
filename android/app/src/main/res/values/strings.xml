@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Logicly</string>
+    <string name="title_activity_main">Logicly</string>
+    <string name="package_name">com.logicly.ai</string>
+    <string name="custom_url_scheme">com.logicly.ai</string>
+</resources>
